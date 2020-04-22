@@ -18,13 +18,15 @@ while True:
 
         if lives == 0:
             print("Gameover...")
+            print(f"It was {number}")
             break
 
     elif usr_inp < number:
         print("Is greater than that...")
-        lives -=1
+        lives -= 1
         print(f"You got {lives} lives")
 
         if lives == 0:
             print("Gameover...")
+            print(f"It was {number}")
             break
